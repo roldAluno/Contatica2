@@ -1,2 +1,2 @@
 # Contatica2
-Sistema de contatos
+Sistema de contatos com Vue.js
