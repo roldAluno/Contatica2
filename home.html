@@ -22,16 +22,18 @@
                 <h2>mas deixe seu contato que a gente te avisa</h2>
             </div>
         </div>
-        <form action="submit.php" method="post">
-            <div class="form-container row w-50">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                    <input type="email" class="form-control" name="email" placeholder="Seu e-mail" required>
+        <div class="form">
+                <div class="form-container row w-50">
+                    <div class="col-12 col-md-9 mb-2 mb-md-0">
+                        <form action="submit.php" method="post">
+                            <input type="email" class="form-control" placeholder="Seu e-mail">
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <button class="btn btn-custom w-100" type="submit"><i class="bi bi-send"></i> Enviar</button>
+                    </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <button class="btn btn-custom w-100" type="submit"><i class="bi bi-send"></i> Enviar</button>
-                </div>
-            </div>
-        </form>
+        </div>
     </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
